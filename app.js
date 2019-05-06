@@ -156,6 +156,9 @@ app.get('/get_playlists', function (req,res) {
       res.send({
         'responseData' : responseData
       })
+    } else{
+      console.log(response);
+      console.log(body);
     }
   })
 });
